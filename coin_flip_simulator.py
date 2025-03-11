@@ -99,7 +99,7 @@ run_monte_carlo = st.sidebar.checkbox(
 num_simulations = st.sidebar.number_input(
     "Number of Simulations",
     min_value=10,
-    max_value=1000,
+    max_value=10000,
     value=100,
     step=10,
     help="Set the number of Monte Carlo simulations to run",
